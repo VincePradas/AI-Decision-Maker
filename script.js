@@ -1,6 +1,5 @@
 async function generateDecision(command) {
-    const apiKey = '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';
-
+    const apiKey = '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';
     try {
         const generated = await fetch('https://api.openai.com/v1/chat/completions', {
             method: 'POST',
@@ -9,7 +8,7 @@ async function generateDecision(command) {
                 'Authorization': `Bearer ${apiKey}`
             },
             body: JSON.stringify({
-                model: 'gpt-3.5-turbo-instruct',
+                model: 'gpt-4o',
                 messages: [
                     { role: 'user', content: command }
                 ],
