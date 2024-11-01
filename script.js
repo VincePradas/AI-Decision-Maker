@@ -1,5 +1,5 @@
 async function generateDecision(command) {
-    const apiKey = 'YOUR_KEY_HERE';
+    const apiKey = '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';
 
     try {
         const generated = await fetch('https://api.openai.com/v1/chat/completions', {
