@@ -39,7 +39,7 @@ Example generated decision:
 
 But don’t stick to these examples; I want you to generate your own random decisions.
 
-now recommend me some decisions`;
+now recommend me a single decision.`;
 
     try {
         const button = document.querySelector('.decide-button');
