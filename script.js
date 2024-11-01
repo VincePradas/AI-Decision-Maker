@@ -37,7 +37,9 @@ Your capabilities include understanding natural language queries related to dail
 Example generated decision:
 "Take a break." or "Go for a walk" or "Take a nap" only one sentence per generation.
 
-But don’t stick to these examples; I want you to generate your own random decisions.`;
+But don’t stick to these examples; I want you to generate your own random decisions.
+
+now recommend me some decisions`;
 
     try {
         const button = document.querySelector('.decide-button');
